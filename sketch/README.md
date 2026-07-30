@@ -42,6 +42,14 @@ This directory is configured for local compilation and simulation in VS Code usi
 4. Go to menu: **Sketch** → **Export Compiled Binary** (or press `Ctrl+Alt+S`)
 5. Arduino IDE will create `build/` folder and save binaries there
 
+### Step 4: Run Simulation
+
+1. Return to VS Code and open this folder (`sketch`)
+2. Press `F1` (or `Ctrl+Shift+P`)
+3. Find and select: **`Wokwi: Start Simulator`**
+4. Wokwi simulation window will open in a VS Code tab
+5. Each time you modify `sketch.ino` and recompile, the simulator will automatically reload the firmware
+
 ## Hardware Components
 
 - ESP32 DevKit V1
