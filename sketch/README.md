@@ -48,6 +48,9 @@ This directory is configured for local compilation and simulation in VS Code usi
 2. Press `F1` (or `Ctrl+Shift+P`)
 3. Find and select: **`Wokwi: Start Simulator`**
 4. Wokwi simulation window will open in a VS Code tab
+
+![Running Wokwi simulation in VS Code](../assets/fig1_wokwi.png)
+
 5. Each time you modify `sketch.ino` and recompile, the simulator will automatically reload the firmware
 
 ## Hardware Components
