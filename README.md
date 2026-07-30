@@ -24,6 +24,8 @@ The ESP32 firmware is designed to run in the Wokwi simulator. Open the project d
 https://wokwi.com/projects/465915722093216769
 ```
 
+For detailed instructions on compiling and flashing the firmware to a physical ESP32, see [sketch/README.md](sketch/README.md).
+
 ![Wokwi hardware wiring diagram](assets/fig1_diagram.png)
 
 ![PubSubClient library dependency](assets/fig1_libraries.png)
