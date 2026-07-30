@@ -62,7 +62,13 @@ https://www.hivemq.com/demos/websocket-client/
 
 ![Node-RED container startup](assets/fig3_podman.png)
 
-Build a Node-RED flow that subscribes to the MQTT topics and displays:
+A pre-built flow file is available at [`flows/lab5.json`](flows/lab5.json). To import it:
+
+1. In the Node-RED editor, go to the menu (≡) → Import → Clipboard
+2. Paste the contents of `flows/lab5.json` and click Import
+3. Click Deploy to activate the flow
+
+The flow subscribes to MQTT topics and displays:
 
 ![Node-RED flow diagram](assets/fig3_nr_flow.png)
 
