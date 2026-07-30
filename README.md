@@ -82,6 +82,10 @@ After flashing the firmware and deploying the Node-RED flow, the HMI interface d
 - Real-time temperature and light level charts updating every second
 - A status indicator showing GOOD (green) or BAD (red) based on current sensor values
 
+![HMI Dashboard in GOOD state](assets/fig4_nr_dash_good.png)
+
+![HMI Dashboard in BAD state](assets/fig5_nr_dash_bad.png)
+
 ## Contributing
 
 Contributions are welcome and appreciated! Here's how you can contribute:
