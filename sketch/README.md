@@ -12,6 +12,11 @@ This directory is configured for local compilation and simulation in VS Code usi
 - `diagram.json` — hardware wiring diagram (ESP32 DevKit, NTC sensor, LDR photoresistor)
 - `libraries.txt` — external library dependencies (PubSubClient)
 
+### Step 1: Install VS Code Extensions
+
+1. Install the **Wokwi Simulator** extension (ID: `Wokwi.wokwi-vscode`)
+2. Install the **Arduino** extension by Microsoft (ID: `vsciot-vscode.vscode-arduino`)
+
 ## Hardware Components
 
 - ESP32 DevKit V1
