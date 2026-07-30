@@ -58,6 +58,8 @@ https://www.hivemq.com/demos/websocket-client/
 
 ### 5. Node-RED Dashboard
 
+![Node-RED container startup](assets/fig3_podman.png)
+
 Build a Node-RED flow that subscribes to the MQTT topics and displays:
 
 - Real-time temperature and light charts
