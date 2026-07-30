@@ -54,6 +54,8 @@ Subscribe to `vntu/chernega/#` on the HiveMQ WebSocket Client to verify data rec
 https://www.hivemq.com/demos/websocket-client/
 ```
 
+![HiveMQ WebSocket Client monitoring](assets/fig2_hivemq.png)
+
 ### 5. Node-RED Dashboard
 
 Build a Node-RED flow that subscribes to the MQTT topics and displays:
