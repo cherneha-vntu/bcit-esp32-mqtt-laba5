@@ -26,6 +26,8 @@ https://wokwi.com/projects/465915722093216769
 
 ![Wokwi hardware wiring diagram](assets/fig1_diagram.png)
 
+![PubSubClient library dependency](assets/fig1_libraries.png)
+
 ### 2. Sensors Configuration (Variant 24)
 
 Two analog sensors are connected to the ESP32:
