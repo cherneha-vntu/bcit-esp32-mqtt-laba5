@@ -2,6 +2,16 @@
 
 This sketch reads analog sensors (NTC thermistor and LDR photoresistor) on an ESP32 and publishes the data via MQTT.
 
+## Local Wokwi Simulation in VS Code
+
+This directory is configured for local compilation and simulation in VS Code using the **Wokwi Simulator** extension. This avoids queues and errors from Wokwi's cloud servers ("Build Servers Busy").
+
+### Project Files
+
+- `sketch.ino` — ESP32 firmware source code
+- `diagram.json` — hardware wiring diagram (ESP32 DevKit, NTC sensor, LDR photoresistor)
+- `libraries.txt` — external library dependencies (PubSubClient)
+
 ## Hardware Components
 
 - ESP32 DevKit V1
