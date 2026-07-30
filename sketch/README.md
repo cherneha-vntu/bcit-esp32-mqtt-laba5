@@ -23,6 +23,17 @@ This directory is configured for local compilation and simulation in VS Code usi
 2. Type and select: **`Wokwi: Request a New License`**
 3. Browser will open Wokwi website. Log in, get the license key, and confirm activation in VS Code
 
+### Step 3: Install Libraries and Compile
+
+#### Method A: Via Arduino Extension in VS Code (Recommended)
+
+1. Make sure **Arduino IDE** or **Arduino CLI** is installed (required by the extension)
+2. Install the **PubSubClient** library:
+   - Open Arduino Library Manager (in VS Code or Arduino IDE)
+   - Find and install **PubSubClient** by Nick O'Leary
+3. Press the compile button (checkmark icon in top right or `Ctrl+Alt+R`)
+4. Project will compile automatically, binaries (`sketch.ino.bin` and `sketch.ino.elf`) will be saved to `build/` folder
+
 ## Hardware Components
 
 - ESP32 DevKit V1
