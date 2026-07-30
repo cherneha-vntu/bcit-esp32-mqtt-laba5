@@ -62,6 +62,8 @@ https://www.hivemq.com/demos/websocket-client/
 
 Build a Node-RED flow that subscribes to the MQTT topics and displays:
 
+![Node-RED flow diagram](assets/fig3_nr_flow.png)
+
 - Real-time temperature and light charts
 - Status control with hysteresis:
   - **GOOD** when T ≤ 34.4 AND L ≤ 64.4
