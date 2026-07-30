@@ -34,6 +34,14 @@ This directory is configured for local compilation and simulation in VS Code usi
 3. Press the compile button (checkmark icon in top right or `Ctrl+Alt+R`)
 4. Project will compile automatically, binaries (`sketch.ino.bin` and `sketch.ino.elf`) will be saved to `build/` folder
 
+#### Method B: Via Arduino IDE 2.x
+
+1. Open `sketch.ino` in Arduino IDE
+2. Select board: **DOIT ESP32 DEVKIT V1**
+3. Install **PubSubClient** library via Library Manager
+4. Go to menu: **Sketch** → **Export Compiled Binary** (or press `Ctrl+Alt+S`)
+5. Arduino IDE will create `build/` folder and save binaries there
+
 ## Hardware Components
 
 - ESP32 DevKit V1
