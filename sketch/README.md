@@ -17,6 +17,12 @@ This directory is configured for local compilation and simulation in VS Code usi
 1. Install the **Wokwi Simulator** extension (ID: `Wokwi.wokwi-vscode`)
 2. Install the **Arduino** extension by Microsoft (ID: `vsciot-vscode.vscode-arduino`)
 
+### Step 2: Activate Wokwi License
+
+1. Press `F1` (or `Ctrl+Shift+P`) to open the command palette
+2. Type and select: **`Wokwi: Request a New License`**
+3. Browser will open Wokwi website. Log in, get the license key, and confirm activation in VS Code
+
 ## Hardware Components
 
 - ESP32 DevKit V1
