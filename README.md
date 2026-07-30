@@ -24,6 +24,8 @@ The ESP32 firmware is designed to run in the Wokwi simulator. Open the project d
 https://wokwi.com/projects/465915722093216769
 ```
 
+![Wokwi hardware wiring diagram](assets/fig1_diagram.png)
+
 ### 2. Sensors Configuration (Variant 24)
 
 Two analog sensors are connected to the ESP32:
